@@ -23,18 +23,18 @@ This project aims to provide tools for natural language processing, specifically
 
 To run this project, you need Python 3.x and the following packages:
 
-```bash
+
 pip3 install nltk
 pip3 install gensim
 pip3 install numpy
 pip3 install pyLDAvis
 pip3 install spacy
-Additionally, you may need to download specific NLTK data:
 
+Additionally, you may need to download specific NLTK data:
 python
-Copy code
-import nltk
+
 nltk.download("stopwords")
+
 Usage
 The script is structured as follows:
 
